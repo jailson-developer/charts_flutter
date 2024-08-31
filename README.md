@@ -6,6 +6,8 @@ Material Design data visualization library written natively in Dart.
 
 ## Supported charts
 
+Compatible with flutter 3.24.1
+
 See the [online gallery](https://google.github.io/charts/flutter/gallery.html).
 
 ## Using the library
