@@ -37,7 +37,7 @@ import 'arc_renderer_element.dart'
 import 'base_arc_renderer_config.dart' show BaseArcRendererConfig;
 
 const arcElementsKey =
-    AttributeKey<List<ArcRendererElement<Object>>>('ArcRenderer.elements');
+    AttributeKey<List<ArcRendererElement<dynamic>>>('ArcRenderer.elements');
 
 abstract class BaseArcRenderer<D> extends BaseSeriesRenderer<D> {
   // Constant used in the calculation of [centerContentBounds], calculated
